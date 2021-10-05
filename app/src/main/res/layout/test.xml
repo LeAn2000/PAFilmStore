@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/ic_baseline_signal_wifi_off_24"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Internet not available"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="Check your connection again"
+        android:gravity="center" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnRety"
+        android:layout_width="72dp"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:text="Ok"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        />
+</LinearLayout>
